@@ -1,0 +1,89 @@
+* { box-sizing: border-box; }
+header, nav, main, footer { display: block; }
+body { background-color: Aqua Sky; 
+    color: Blue Izis;
+    font-family: Verdana, Arial, sans-serif;
+}
+header { background-color: green ;
+    height: 150px;
+    background-repeat: no-repeat;	}
+    
+    h1 { padding-top: 45px;
+        padding-left: 220px;
+        font-size: 3em;
+    }
+    nav { background-color:blueviolet;
+        text-align: center; 
+        font-weight: bold; 
+        font-size: 1.5em;
+        padding-top: 10px;
+        float: left;
+        width: 200px;
+        
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+    
+    nav a { text-decoration: aquamarine; }
+    nav a:link { color: #fec2d9; }
+    nav a:visited { color:burlywood; }
+    nav a:hover { color: blueviolet; }
+    nav ul { list-style-type: left;
+            padding-left: 0; }
+    main { padding: 0 0 2em 0;
+    margin-left: 200px;
+    background-color:skyblue;
+    display: block;}
+    main h2, main h4, main p, main div, main ul{ padding-left: 3em; padding-right: 2em; }
+    footer { background-color: grey;
+        font-size: .60em;
+        font-style: italic;
+        text-align: center;
+        
+ }
+ img { padding-left: 10px;
+    padding-right: 10px;
+}
+#myphoto { background-image: url(myphoto.jpeg); 
+    background-size: 100% 100%;
+    height: 150px;
+    border: 5px solid #ddd;
+  padding: 5px;
+  width: 150px;
+   
+   }
+#work{background-image: url(work.png); 
+    background-size: 100% 100%;
+    height: 400px;}
+    #myeducation { background-image: url(myeducation.PNG); 
+        background-size: 100% 100%;
+        height: 300px; } 
+        #front { background-image: url(front.jpeg); 
+
+            background-size: 100% 100%;
+            height: 150px;
+            border: 5px solid #ddd;
+          padding: 5px;
+          width: 150px; } 
+        
+                #lab { background-image: url(lab.PNG); 
+                    background-size: 100% 100%;
+                    height: 400px; } 
+                    #networkdig { background-image: url(networkdig.jpg); 
+                        background-size: 100% 100%;
+                        height: 400px; } 
